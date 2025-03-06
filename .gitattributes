@@ -1,1 +1,2 @@
+*.ipynb filter=lfs diff=lfs merge=lfs -text
 Exploratory_Data_Analysis.ipynb filter=lfs diff=lfs merge=lfs -text
