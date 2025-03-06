@@ -3,7 +3,7 @@
 ## **Objetivo do Projeto**  
 Este projeto visa a construção de um banco de dados geoespacial robusto e estruturado para análise do desmatamento no Brasil. A iniciativa tem como foco integrar e processar informações provenientes de diferentes fontes para oferecer uma visão abrangente sobre a dinâmica do desmatamento no país.
 
-> O desmatamento é um fator crítico para a formulação de políticas públicas e a definição de estratégias de desenvolvimento sustentável. Dados geoespaciais permitem monitorar a evolução do desmatamento ao longo do tempo, identificar áreas de maior risco e embasar decisões governamentais e privadas. Essas informações são amplamente utilizadas para o cumprimento de acordos ambientais, avaliação da efetividade de ações de fiscalização e certificação de cadeias produtivas sustentáveis, além de serem um recurso essencial para planejamento territorial e conservação dos recursos naturais.
+O desmatamento é um fator crítico para a formulação de políticas públicas e a definição de estratégias de desenvolvimento sustentável. Dados geoespaciais permitem monitorar a evolução do desmatamento ao longo do tempo, identificar áreas de maior risco e embasar decisões governamentais e privadas. Essas informações são amplamente utilizadas para o cumprimento de acordos ambientais, avaliação da efetividade de ações de fiscalização e certificação de cadeias produtivas sustentáveis, além de serem um recurso essencial para planejamento territorial e conservação dos recursos naturais.
 
 Para isso, foram utilizados os dados dos principais sistemas de monitoramento por satélite desenvolvidos pelo Instituto Nacional de Pesquisas Espaciais (**INPE**):  
 
