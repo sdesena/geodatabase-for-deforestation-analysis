@@ -492,7 +492,7 @@ def export_partitioned_to_postgis(gdf, engine, schema, column, prefix):
         gdf_partition = gdf[gdf[column] == value]
 
         # Nome da tabela no banco
-        table_name = f"{prefix}_{value}"
+        table_name = f"{prefix}_{value}".lower()
 
         # Enviar para o banco de dados
         gdf_partition.to_postgis(name=table_name, con=engine, schema=schema, if_exists='replace', index=False)

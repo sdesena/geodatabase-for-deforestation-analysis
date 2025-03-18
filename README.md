@@ -1,7 +1,7 @@
 # **Banco de Dados Geoespacial para Análise do Desmatamento no Brasil**  
 
 ## **Objetivo do Projeto**  
-Este projeto visa a construção de um banco de dados geoespacial robusto e estruturado para análise do desmatamento no Brasil. A iniciativa tem como foco integrar e processar informações provenientes de diferentes fontes para oferecer uma visão abrangente sobre a dinâmica do desmatamento no país.
+Este projeto visa a construção de um banco de dados geoespacial estruturado para análise do desmatamento no Brasil. A iniciativa tem como foco integrar e processar dados provenientes de diferentes fontes para oferecer uma visão abrangente sobre a dinâmica do desmatamento no país.
 
 O desmatamento é um fator crítico para a formulação de políticas públicas e a definição de estratégias de desenvolvimento sustentável. Dados geoespaciais permitem monitorar a evolução do desmatamento ao longo do tempo, identificar áreas de maior risco e embasar decisões governamentais e privadas. Essas informações são amplamente utilizadas para o cumprimento de acordos ambientais, avaliação da efetividade de ações de fiscalização e certificação de cadeias produtivas sustentáveis, além de serem um recurso essencial para planejamento territorial e conservação dos recursos naturais.
 
@@ -10,7 +10,7 @@ Para isso, foram utilizados os dados dos principais sistemas de monitoramento po
 - **PRODES** (*Projeto de Monitoramento do Desmatamento na Amazônia Legal por Satélite*) — responsável pelo mapeamento anual das taxas de desmatamento na Amazônia Legal, sendo uma das principais referências para políticas ambientais e compromissos internacionais.  
 - **DETER** (*Sistema de Detecção do Desmatamento em Tempo Real*) — opera em tempo quase real para detectar alterações na vegetação, permitindo ações rápidas de fiscalização e combate ao desmatamento ilegal.
 
-Para enriquecer a análise espacial e contextualizar os dados de desmatamento, integramos informações de diversas fontes complementares:  
+Para enriquecer a análise espacial e contextualizar os dados de desmatamento, foram integradas informações de diversas fontes complementares:  
 
 - **IMAFLORA (Instituto de Manejo e Certificação Florestal e Agrícola):**  
   Base fundiária do Atlas Agropecuário, que inclui dados sobre:  
@@ -39,9 +39,9 @@ Nesta etapa, realizamos um estudo aprofundado para entender a qualidade, a distr
 - **Coleta e Integração dos Dados:**
   - Identificação e extração das fontes (IBGE, IMAFLORA, INPE, IBAMA, ICMBio).
 - **Limpeza e Preparação:**
-  - Verificação de inconsistências, tratamento de dados faltantes e identificação da dimensão, estrutura e formato dos dados (GeoPandas, PySpark, Pandas).
+  - Verificação de inconsistências, tratamento de dados, identificação da dimensão, estrutura e formato dos dados (GeoPandas, PySpark, Pandas).
 - **Visualização Inicial:**
-  - Geração de mapas, histogramas e gráficos para compreender a distribuição espacial e temporal dos dados (Matplotlib, Seaborn, Folium).
+  - Geração de mapas e gráficos para compreender a distribuição espacial e temporal dos dados (Matplotlib, Seaborn, Folium).
 - **Análise Estatística:**
   - Cálculo de métricas descritivas para cada fonte, a fim de identificar padrões e tendências iniciais no desmatamento.
 
@@ -86,7 +86,7 @@ Após a carga dos dados, a etapa de consultas e análises é realizada através 
     - Execução de consultas SQL diretamente na interface do QGIS;
     - Geração de mapas temáticos que evidenciam áreas de desmatamento, áreas prioritárias para conservação e zonas de embargo.
 - **Geração de Relatórios e Mapas:**
-  - Criação de dashboards e relatórios que suportem a tomada de decisão e a proposição de políticas públicas com base nos dados analisados.
+  - Criação de relatórios que suportem a tomada de decisão e a proposição de políticas públicas com base nos dados analisados.
 
 ## Tecnologias Utilizadas
 
